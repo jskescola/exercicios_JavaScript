@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Exercícios</title>
+</head>
+<body>
+<h1 style="color:blue"><center>Questões de porcentagem</center></h1>
+<h2>1) 25 representa quantos por cento de 200?</h2>
+<script>
+	var numeroTotal = 200;
+	var numeroParcial = 25;
+	var umPorCento = (numeroTotal/100);
+	//document.write(umPorCento);
+	var resultadoFinal = (numeroParcial/umPorCento);
+	document.write("25 dentro de 200 representa em porcentagem " + resultadoFinal + "%.");
+</script>
+<br>
+<h2>2) Em uma sala de aula há 30 alunos, dos quais 40% são meninas. Quantas meninas têm na sala?</h2>
+<script>
+	var totalAlunos = 30;
+	var meninas = (totalAlunos * 0.4);
+	document.write("O total de meninas é " + meninas + ".");
+</script>
+<br>
+<h2>3) Júlia acertou 75% das questões de Matemática do teste e Mariana acertou 4/5. Quem acertou mais questões?</h2>
+<script>
+var julia = (100 * 0,75);
+var mariana = (100/5) * 4;
+document.write("Júlia acertou " + julia + "% das questões, enquanto Mariana acertou " + mariana + "% das questões, portanto, quem acertou mais foi a Mariana.")
+</script>
+<br>
+<h2>4) Em uma indústria, o setor de qualidade constatou que um lote com 4500 peças, 180 apresentavam algum defeito. Para um lote ser aprovado é necessário que o número de peças com defeito seja inferior a 3%. Neste caso, o lote foi aprovado ou reprovado?</h2>
+<script>
+	pecas = 4500;
+	defeito = 180;
+	umPorCento = (pecas/100);
+	resultadoFinal = (defeito/umPorCento);
+	document.write("O lote foi reprovado, pois a porcentagem de peças com defeito foi de " + resultadoFinal + "%.");
+</script>
+<h2>5) Em uma loja, uma máquina de lavar roupas custava R$ 1500,00 e seu preço sofreu um aumento de 3%. Logo após o aumento a loja resolveu fazer uma promoção oferecendo um desconto de 3% no mesmo produto. Qual o valor do produto após o aumento e após o desconto?</h2>
+<script>
+	var maquinaDeLavar = 1500;
+	var aumento = 1.03;
+	var desconto = 0.03;
+	var precoAumento = maquinaDeLavar * aumento;
+	var precoDesconto = (precoAumento * 0.97);
+	document.write("O primeiro valor foi de " + precoAumento + ", e o segundo valor foi de " + precoDesconto + ".");
+
+</script>
+
+<br>
+<h2>6) Na última liquidação de verão, uma loja vendia todos os seus produtos com um desconto de 15%. Se uma camisa antes da liquidação custava R$ 145,00, quanto passou a custar na liquidação?</h2>
+
+<br>
+<h2>7) Os vendedores de uma loja recebem mensalmente um salário fixo no valor de R$ 1200,00 e uma comissão de 6% referente ao valor total do que venderam no mês. Sendo assim, qual será o valor recebido por um vendedor que vendeu no mês R$14000,00?</h2>
+
+<br>
+<h2>8) Em um concurso, 520 candidatos se inscreveram. No dia da prova apenas 364 candidatos compareceram. Neste caso, qual foi a porcentagem dos candidatos que faltaram a prova?</h2>
+</body>
+</html>
